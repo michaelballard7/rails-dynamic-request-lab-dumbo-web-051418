@@ -1177,6 +1177,7 @@ Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.4ms)[0m  rollback transaction
   [1m[36m (3.0ms)[0m  [1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+<<<<<<< HEAD
   [1m[35m (2.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
   [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (2.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
@@ -1263,3 +1264,5 @@ Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-06-08 19:21:47.977931"], ["updated_at", "2018-06-08 19:21:47.977931"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> 78b78f218b7034683aa34600cb62dd725b21a940
